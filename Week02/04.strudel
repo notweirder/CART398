@@ -1,0 +1,27 @@
+// @title W02-04
+// @license CC BY-NC-SA 4.0 https://creativecommons.org/licenses/by-nc-sa/4.0/
+// @by notweirder
+// @date Jan 28, 2026
+
+// 04
+setcps(0.5)
+$: note("<[52, 45, 55] [55, 56, 44]>").s("wt_digital_bad_day")
+.struct("<x@3 x*2 x x*3>*4").sometimes(x=>x.lpf(900))
+
+$: s("<bd bd [bd?0.3] bd>").struct("<x x x x>*4")
+
+$: s("[hh*8] [hh*2]?").struct("<x*8>").every(2,x=>x.stut(10,0.2,0.5))
+
+
+
+  
+
+
+
+
+
+
+
+
+
+

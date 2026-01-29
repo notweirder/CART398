@@ -1,0 +1,21 @@
+// @title W02-01
+// @license CC BY-NC-SA 4.0 https://creativecommons.org/licenses/by-nc-sa/4.0/
+// @by notweirder
+// @date Jan 28, 2026
+
+// 1
+setcpm(128/3)
+
+ $: note("[66, 48, 52] [32 46 62] [40 32 48]").s("xylophone_hard_pp")
+.struct("x ~ x x*2 x x x x").mask("x ~ x x")
+
+$: s("bd hh bb hh bd").bank("akailinn").struct("x x x x@3 x x")
+
+$s: note("<42 45>").s("wt_digital_echoes").struct("<x x>")
+
+
+
+
+
+
+
