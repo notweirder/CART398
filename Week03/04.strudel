@@ -1,0 +1,76 @@
+// @title W03-04
+// @license CC BY-NC-SA 4.0 https://creativecommons.org/licenses/by-nc-sa/4.0/
+// @by notweirder
+// @date Feb 3 2026
+
+
+samples('github:tidalcycles/dirt-samples')
+
+setcpm(120/4)
+$s: note("1 2!2 4 2 [2 4]?").s('piano').scale("C:major")
+
+$s:n(1).s('sax').striate("6").struct("x@2 x*3 x x").fast(1.2).speed(1).rarely(x=>x.speed(2))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+

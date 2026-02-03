@@ -1,0 +1,31 @@
+// @title W02-05
+// @license CC BY-NC-SA 4.0 https://creativecommons.org/licenses/by-nc-sa/4.0/
+// @by notweirder
+// @date Jan 28, 2026
+
+// 05
+setcps(0.5)
+$: note("64 62 60 [67!3] [68?]").s("gm_xylophone:1")
+.struct("x x x x@2 x!3 x").mask("x ~ x!3").delay("0.2").every(4,x=>x.delay("0.8"))
+
+$: note("<[44|48]@4>").s("gm_epiano2")
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
